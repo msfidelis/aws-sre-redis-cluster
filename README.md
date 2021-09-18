@@ -14,7 +14,7 @@
 # Variables 
 
 | Variable                      | Default       | Required  | Type      |  Additional Info  |
---------------------------------------------------------------------------------------------|
+|-------------------------------|---------------|-----------|-----------|-------------------|
 | `name`                        | NA            | yes       | `string`  |                   |
 | `node_type`                   | NA            | yes       | `string`  | See Node Types    |    
 | `vpc`                         | NA            | yes       | `string`  | VPC ID            |
@@ -36,7 +36,7 @@
 # Outputs 
 
 | Variable                      | Value                                     |
-----------------------------------------------------------------------------|
+|-------------------------------|-------------------------------------------|
 | `cluster`                     | `aws_elasticache_replication_group.main`  |
 | `parameter_group`             | `aws_elasticache_parameter_group.main`    | 
 | `security_group`              | `security_group`                          | 
